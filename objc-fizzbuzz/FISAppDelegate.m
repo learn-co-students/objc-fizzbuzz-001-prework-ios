@@ -22,16 +22,13 @@
         // NSLog(@"%lu",i);
         NSString*result =@""; // equal to an empty string
         
-        if (i % 3 == 0 && i % 5 == 0) {
-            result = [result stringByAppendingString: @"FizzBuzz"]; // concatenation of 'result' string
-        }
-        else if (i % fizzIncrement == 0){
+        if (i % fizzIncrement == 0){
             result=[result stringByAppendingString: @"Fizz"];
         }
-        else if (i % buzzIncrement ==0) {
+        if (i % buzzIncrement ==0) {
             result=[result stringByAppendingString: @"Buzz"];
         }
-        else {
+        if (result.length == 0) {
             result= [NSString stringWithFormat:@"%lu",i];
         }
         NSLog(@"%@", result); // print result
