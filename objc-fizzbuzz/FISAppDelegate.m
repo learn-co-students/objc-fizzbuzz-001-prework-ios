@@ -15,6 +15,9 @@
         if (i % 3 == 0) {
             result = @"Fizz";
         }
+        else if (i % 5 == 0) {
+            result = @"Buzz";
+        }
         else {
             result = [NSString stringWithFormat:@"%lu", i];
         }
