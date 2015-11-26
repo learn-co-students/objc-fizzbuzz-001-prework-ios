@@ -10,7 +10,6 @@
     for (NSUInteger i = 1; i <= 100; i++) {
         NSString *result = @" ";
         result = [NSString stringWithFormat:@"%lu", i];
-        NSLog(@"%@", result);
         
         if (i % 3 == 0) {
             result = @"Fizz";
