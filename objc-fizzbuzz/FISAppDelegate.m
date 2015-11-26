@@ -7,11 +7,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    for (NSUInteger i = 1; i <= 100; i++) {
+    NSUInteger start = 100;
+    NSUInteger limit = 130;
+    
+    for (NSUInteger i = start; i <= limit; i++) {
         NSString *result = @" ";
-        result = [NSString stringWithFormat:@"%lu", i];
         
-        if (i % 3 == 0) {
+        if (i % 3 == 0 && i % 5 == 0){
+            result = @"FizzBuzz";
+        }
+        else if (i % 3 == 0) {
             result = @"Fizz";
         }
         else if (i % 5 == 0) {
