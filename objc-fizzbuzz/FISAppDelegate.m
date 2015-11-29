@@ -14,7 +14,9 @@
     NSUInteger buzzIncrement = 5;
     
     for (NSUInteger i = start; i <= limit; i++) {
-        NSString *result = @" ";
+        NSString *result = [NSString stringWithFormat:@"%lu", i];
+      
+        
         
         if (i % fizzIncrement == 0 && i % buzzIncrement == 0) {
             result = @"FizzBuzz";
@@ -25,10 +27,6 @@
             else if (i % buzzIncrement == 0){
             result = @"Buzz";
         }
-        else {
-            result = [NSString stringWithFormat:@"%lu", i];
-        }
-        
         
         NSLog(@"%@", result);
     }
