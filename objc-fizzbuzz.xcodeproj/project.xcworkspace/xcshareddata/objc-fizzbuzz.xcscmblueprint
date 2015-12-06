@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "44FCE93AFFB052FD36A3A581A36EA857C395D06B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "44FCE93AFFB052FD36A3A581A36EA857C395D06B" : 0,
+    "8249E415C0975FFB5C73E01C9BBCC1E21BAC46BF" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0DF4E6C1-5CFC-4A9C-BD38-DA7A1B2FADCB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "44FCE93AFFB052FD36A3A581A36EA857C395D06B" : "objc-fizzbuzz-001-prework-ios\/",
+    "8249E415C0975FFB5C73E01C9BBCC1E21BAC46BF" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "objc-fizzbuzz",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "objc-fizzbuzz.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:mvargas2193\/objc-fizzbuzz-001-prework-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "44FCE93AFFB052FD36A3A581A36EA857C395D06B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:mvargas2193\/learnerrors.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8249E415C0975FFB5C73E01C9BBCC1E21BAC46BF"
+    }
+  ]
+}
