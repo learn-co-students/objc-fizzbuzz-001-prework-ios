@@ -13,6 +13,27 @@
      
      */
     
+    for (NSUInteger i =0; i<=100; i++) {
+        if (i%3 == 0) {
+            if (i%5 == 0) {
+                NSLog(@"FizzBuzz");
+            }
+            else {
+                NSLog(@"Fizz");
+            }
+        }
+        
+        else if (i%5 ==0) {
+            NSLog(@"Buzz");
+        }
+        else {
+            NSLog(@"%lu", (unsigned long)i);
+        }
+    
+        
+    
+    }
+    
     // do not alter
     return YES;  //
     ///////////////
