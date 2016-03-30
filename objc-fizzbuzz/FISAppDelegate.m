@@ -12,6 +12,27 @@
      * Write your code here!
      
      */
+    NSUInteger start = 100;
+    NSUInteger limit = 130;
+    
+    for (NSUInteger i = start; i <= limit; i++) {
+        NSString *result = @"";
+        
+        if (i % 3 == 0 && i % 5 == 0) {
+            result = @"FizzBuzz";
+        }
+        else if (i % 3 == 0) {
+            result = @"fizzIncrement";
+        }
+        else if (i % 5 == 0) {
+            result = @"buzzIncrement";
+        }
+        else {
+            result = [NSString stringWithFormat:@"%lu", i];
+        }
+        NSLog(@"%@", result);
+    }
+    
     
     // do not alter
     return YES;  //
