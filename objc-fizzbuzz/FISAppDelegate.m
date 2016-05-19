@@ -20,17 +20,15 @@
     NSString *result = @"";
     
     for (NSUInteger i = start; i <= limit; i++) {
-        if(i % fizzLimit == 0 && i % buzzLimit == 0) {
-            result = @"FizzBuzz";
+        result = @"";
+        if(i % fizzLimit == 0) {
+            result = [result stringByAppendingString:@"Fizz"];
         }
-        else if(i % fizzLimit == 0) {
-            result = @"Fizz";
+        if(i % buzzLimit == 0) {
+            result = [result stringByAppendingString:@"Buzz"];
         }
-        else if(i % buzzLimit == 0) {
-            result = @"Buzz";
-        }
-        else {
-        result = [NSString stringWithFormat:@"%lu", i];
+        if ([result isEqualToString:@""]) {
+            result = [NSString stringWithFormat:@"%lu", i];
         }
         NSLog(@"%@", result);
     }
