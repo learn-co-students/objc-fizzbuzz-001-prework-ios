@@ -7,8 +7,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    NSUInteger start = 1;
-    NSUInteger limit = 100;
+    NSUInteger start = 100;
+    NSUInteger limit = 130;
     
     for (NSUInteger i = start; i <= limit; i++) {
         NSString *result = @" ";
