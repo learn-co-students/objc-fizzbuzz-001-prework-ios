@@ -5,17 +5,34 @@
 @implementation FISAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+   
+    NSInteger i = 0;
+    NSInteger max = 100;
     
-    /*
-     
-     * Write your code here!
-     
-     */
+    while (i < max) {
+        i = i + 1;
+        
+        if (i % 3 == 0 && i % 5 == 0) {
+            
+            NSLog(@"%li - FizzBuzz", (long)i);
+        } else if (i % 5 == 0) {
+            
+            NSLog(@"%li - Buzz", (long)i);
+        } else if (i % 3 == 0) {
+            
+            NSLog(@"%li - Fizz", (long)i);
+        } else {
+            
+            NSLog(@"%li", (long)i);
+        }
     
-    // do not alter
-    return YES;  //
-    ///////////////
-}
+    }
+    
+ 
+    
+    
+    
+    
+    return YES; }
 
 @end
