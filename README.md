@@ -128,7 +128,7 @@ Fizz
 Fizz
 ...
 ```
-So, why does every multiple of fifteen (`15`) still print "Fuzz"? Remember that an `else if` statement only has a chance to run if none of the `if` or `else if` statements before it runs.
+So, why does every multiple of fifteen (`15`) still print "Fizz"? Remember that an `else if` statement only has a chance to run if none of the `if` or `else if` statements before it runs.
 
 6 — Let's instead start the switch block with an `if` statement that evaluates whether or not the current value of `i` is a multiple of *both* three (`3`) *and* five (`5`). We can use the same remainder logic as the other two evaluations but combine them with "and" logical operator (`&&`). If both of these conditions pass simultaneously, we can set `result` to `@"FizzBuzz"`. We'll also have to alter the current leading `if (i % 3 == 0 ) { ... }` statement into an `else if` statement since it no longer leads the switch block:
 
@@ -264,3 +264,4 @@ Buzz
 1. The FizzBuzz exercise is primarily about best practice and efficiency. Can you identify some of the problems with the implementation of FizzBuzz that we wrote? For starters, it repeats itself, both in the conditional checks, and in the instructions. Can you come up with a better logical structure that doesn't repeat itself?
 
 2. Furthermore, while we did document the starting and ending points for the loop by saving the values into the `start` and `limit` variables, the remainder (`%`) calculations are still written with "magic numbers". Document these values by creating new variables called `fizzIncrement` and `buzzIncrement` that are set to `3` and `5` respectively.
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/objc-fizzbuzz' title='FizzBuzz'>FizzBuzz</a> on Learn.co and start learning to code for free.</p>
